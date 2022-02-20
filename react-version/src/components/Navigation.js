@@ -1,9 +1,7 @@
 function Navigation() {
   return (
     <nav>
-
       <span classNameName="nav--text">tweeter</span>
-
       <div className="btn btn--scroll">
         <a href="#" className="btn__text btn--borderless" title="Compose Tweet">
           <span className="btn--bold">Write</span> a new tweet
@@ -11,7 +9,6 @@ function Navigation() {
           <i className="btn__icon fas fa-angle-double-down"></i>
         </a>
       </div>
-
     </nav>
   );
 };
